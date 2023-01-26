@@ -1,0 +1,15 @@
+failuose "EKSPERIMENTAI" vyksta kodo vystymas. jei eksperimentai veikia juos reikia idiegt i valdymo centra.
+
+3 su datetime suklasifikuot visus irasus i patogu lista
+2 prijunk daugiau irangos prie arduino
+1 sukurk grazu cikla ,kad informacija po 1 apeitu rata per visus sensorius ir motorus, o ne ties vienu loopintu.
+4 funkcija kuri atpazintu garsa ir atstuma ir valdytu zingsnini pagal duomenis
+5 gali pajungt duombaze.
+6 issibandyk nn. situacijos atpazinimas
+7*** pasirasyk klase arduino komponentams
+
+duomenu apdorojimas:
+rdata duomenys yra grupuojami i du sarasus pagal int ir str. kodas sulus pajungus sensorius kuriuose yra panasus duomenu tipai
+nzn. ar galima parasyt universalu koda turbut reiks kiekvienam sensoriui pritaikyt individualu.
+
+irasymo metu luzta tk. reik sugalvot aborta kaip nutraukt irasyma kai liks tik exe
