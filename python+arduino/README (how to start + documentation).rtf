@@ -1,0 +1,40 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset238 Calibri;}{\f1\fnil\fcharset186 Calibri;}{\f2\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue255;\red255\green0\blue0;}
+{\*\generator Riched20 10.0.22621}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang1063\'8a\f1 iame projekte turime arduino uno plokste prie kurios prijungtas:\par
+1. atstumo matuoklis\par
+2. garso matuoklis\par
+3. zingsninis motoras\par
+ir tkinter programele kuri turi nurodyta funkcionaluma. sis projektas leidzia issaugoti sensoriu \f2\lang1033 siunciamus \f1\lang1063 duomenis, \f2\lang1033 o \f1\lang1063 motoras automatiskai suveikia jei sensoriai gauna atitinkamus duomenis\f2\lang1033  (koda lengva taisyti ir pakeisti motoro sukimosi priklausomybe nuo sensoriu)\f1\lang1063  ir \f2\lang1033 taip pat \f1\lang1063 galima pamatyti \f2\lang1033 sensoriu surinktu duomenu atvaizdavima diagramoje (matplotlib).\f1\lang1063\par
+\par
+pagrindiniam folderyje rasite 3nuotraukas kurios parodo kaip turi buti sujungta jusu arduino plokste. "rduino ft 1,2,3"\par
+i arduino uno plokste jums reikia irasyti\f2\lang1033  duomenis faile:\f1\lang1063  "rduino_programos_kodas" \par
+tai galite padaryti parsisiunte arduino softa is ju puslapio - {{\field{\*\fldinst{HYPERLINK https://www.arduino.cc/en/software }}{\fldrslt{https://www.arduino.cc/en/software\ul0\cf0}}}}\f1\fs22  \par
+jums uztenka nukopijuoti koda ir idiegti i plokste\par
+\par
+*tkinter kodas dalinai veikia ir neprijungus arduino prie kompiuterio\f2\lang1033 . tokiu atveju matysite tkinter lentele, galesite suzinoti savo com numeri ir pamatyti issaugotu duomenu diagramas arba istrinti duomenis. \f1\lang1063\par
+\par
+toliau turime tkinter lentele kurioje yra idiegtas toks funkcionalumas:\par
+1. \f2\lang1033 "\f1\lang1063 pradeti irasyma\f2\lang1033 "\f1\lang1063  \f2\lang1033 - paraso ka daryti toliau\f1\lang1063\par
+\f2\lang1033 2\f1\lang1063 . \f2\lang1033 "\f1\lang1063 suzinoti savo com numeri\f2\lang1033 " - paraso jusu com numeri\f1\lang1063\par
+\f2\lang1033 3\f1\lang1063 . \f2\lang1033 "\f1\lang1063 pasirinkus com() spausti cia\f2\lang1033 " - pradeda irasineti sensoriu duomenis \f1\lang1063\par
+4. \f2\lang1033 "\f1\lang1063 diagrama\f2\lang1033 " - parodo issaugotu duomenu statistika\f1\lang1063\par
+5. \f2\lang1033 "\f1\lang1063 d2\f2\lang1033 " - parodo issaugotu duomenu statistika\f1\lang1063\par
+6. \f2\lang1033 "\f1\lang1063 istrinti visus duomenis\f2\lang1033 " - istrina visus sensoriu duomenis\par
+ir laukas apacioje kur matysite naviguojancius komentarus\f1\lang1063\par
+\par
+\f2\lang1033 jeigu prijungete arduino plokste su sensoriais ir motoru ir idieget nurodyta koda - isitikinkite ,kad kompiuteryje yra isjungtas "bluetooth". \par
+***del "bluetooth" ir kitu usb jungciu gali kilti problemu del porto per kuri kompiuteris komunikuoja su arduino plokste.\par
+\cf2\par
+\cf0 atsidarius projekta per editoriu "vscode" reikia paleist faila "valdymo_centras". Paleidus turi atsirast lentele su mygtukais.\par
+paspauskite eiles tvarka:\par
+1. "suzinoti savo com numeri" - apacioje turi atsirasti uzrasas pvz. "COM3"\par
+2. nukopijuokite ji i tuscia lauka ir spauskite "pasirinkus COM() spausti cia"\par
+duomenys is sensoriu bus irasomi i "rduino_data", o motoras judes priklausomai nuo sensoriu gaunamu duomenu\par
+mygtukas "diagrama" ir "d2" parodo visus "rduino_data" faile esancius duomenis diagramose.\par
+\f1\lang1063\par
+\par
+\par
+\f2\lang9\par
+}
+�
